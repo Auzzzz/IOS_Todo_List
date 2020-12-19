@@ -15,6 +15,8 @@
 		C6247ED6258B986E009C69A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6247ED4258B986E009C69A0 /* LaunchScreen.storyboard */; };
 		C6247EE1258B986F009C69A0 /* To_Do_ListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6247EE0258B986F009C69A0 /* To_Do_ListTests.swift */; };
 		C6247EEC258B986F009C69A0 /* To_Do_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6247EEB258B986F009C69A0 /* To_Do_ListUITests.swift */; };
+		C6247EFD258B9EAB009C69A0 /* EntryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6247EFC258B9EAA009C69A0 /* EntryViewController.swift */; };
+		C6247F02258B9EBB009C69A0 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6247F01258B9EBB009C69A0 /* TaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		C6247EE7258B986F009C69A0 /* To Do ListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "To Do ListUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C6247EEB258B986F009C69A0 /* To_Do_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListUITests.swift; sourceTree = "<group>"; };
 		C6247EED258B986F009C69A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6247EFC258B9EAA009C69A0 /* EntryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryViewController.swift; sourceTree = "<group>"; };
+		C6247F01258B9EBB009C69A0 /* TaskViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				C6247ED2258B986E009C69A0 /* Assets.xcassets */,
 				C6247ED4258B986E009C69A0 /* LaunchScreen.storyboard */,
 				C6247ED7258B986E009C69A0 /* Info.plist */,
+				C6247EFC258B9EAA009C69A0 /* EntryViewController.swift */,
+				C6247F01258B9EBB009C69A0 /* TaskViewController.swift */,
 			);
 			path = "To Do List";
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				C6247ECE258B986B009C69A0 /* ViewController.swift in Sources */,
+				C6247EFD258B9EAB009C69A0 /* EntryViewController.swift in Sources */,
+				C6247F02258B9EBB009C69A0 /* TaskViewController.swift in Sources */,
 				C6247ECA258B986B009C69A0 /* AppDelegate.swift in Sources */,
 				C6247ECC258B986B009C69A0 /* SceneDelegate.swift in Sources */,
 			);
